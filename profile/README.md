@@ -5,33 +5,28 @@ learns, builds, and figures out — captured **module by module**, in the
 open, as it happens.
 
 i.c.stars is an immersive technology training and leadership development
-program. Interns don't just learn here — they **document** here. Writing it
-down, committing it, and reviewing each other's notes is part of the
+program. Interns don't just learn here — they **document** here. Writing
+it down, committing it, and reviewing each other's notes is part of the
 training: every intern leaves knowing git, and every cycle leaves a trail
 the next cycle can stand on.
 
-## How the notebook works
+## The three repos
 
-- **One repo per cycle** — e.g. `cycle-21-fall-2026`. It's the cohort's
-  shared notebook for the whole internship.
-- **One folder per module** — each curriculum module gets its own space:
-  notes, exercises, code, resources worth keeping, and a retro of what
-  clicked and what didn't.
-- **Contributions are pull requests.** Interns propose, review, and merge
-  each other's entries — real collaboration on a real repo, from week one.
-- **New cycles start from the template** — `cycle-notebook-template` stamps
-  out the structure so every cohort starts the same way and can browse
-  every cohort before them.
-
-## Start here
-
-| Repo | What it is |
+| Repo | What it holds |
 |---|---|
-| **cycle-notebook-template** | The starting structure for every new cycle's notebook |
-| **cycle-\*** repos | Each cohort's living notebook, newest = most active |
+| **rfp** | The client project track — discovery, requirements, business analysis, presentations. One folder per cycle, one Cornell guide per lesson. |
+| **tech-foundations** | The technical curriculum track — same notebook architecture, from fundamentals to whatever this cycle goes deep on. |
+| **icstars-clockin** | Program tooling: the NFC clock-in kiosk, admin portal, attendance reporting, and inventory system that runs our days. |
 
-*(Program tooling — like our NFC clock-in and attendance system — also
-lives in this org as private repos.)*
+## How the notebooks work
+
+- **One folder per cycle** inside each track (`cycles/cycle-21-fall-2026/`).
+- **One folder per module**, copied from the track's template.
+- **One Cornell-style guide per lesson** — essential question, cues,
+  notes, an apply-it exercise, self-check, and a summary written within
+  24 hours. A lesson is complete when its guide is.
+- **Everything enters through pull requests** reviewed by a teammate —
+  real collaboration on a real repo, from week one.
 
 ## Who we are
 
