@@ -1,36 +1,42 @@
-# i.c.stars | Milwaukee
+# i.c.stars | Milwaukee — The Living Notebook
 
-**Technology workforce development for emerging leaders.**
+This is the working memory of our internship cycles: what each cohort
+learns, builds, and figures out — captured **module by module**, in the
+open, as it happens.
 
 i.c.stars is an immersive technology training and leadership development
-program. Through intensive project-based internship cycles, we prepare
-talented adults from underserved communities for careers in technology —
-and for civic leadership in their own city.
+program. Interns don't just learn here — they **document** here. Writing it
+down, committing it, and reviewing each other's notes is part of the
+training: every intern leaves knowing git, and every cycle leaves a trail
+the next cycle can stand on.
 
-This organization hosts the software our Milwaukee team builds to run the
-program itself.
+## How the notebook works
 
-## What we build
+- **One repo per cycle** — e.g. `cycle-21-fall-2026`. It's the cohort's
+  shared notebook for the whole internship.
+- **One folder per module** — each curriculum module gets its own space:
+  notes, exercises, code, resources worth keeping, and a retro of what
+  clicked and what didn't.
+- **Contributions are pull requests.** Interns propose, review, and merge
+  each other's entries — real collaboration on a real repo, from week one.
+- **New cycles start from the template** — `cycle-notebook-template` stamps
+  out the structure so every cohort starts the same way and can browse
+  every cohort before them.
 
-Our tools are built lean on purpose — Google Workspace, Apps Script, and
-NFC hardware instead of servers and hosting bills — so any i.c.stars city
-can run them.
+## Start here
 
-| Project | What it does | Visibility |
-|---|---|---|
-| **icstars-clockin** | The intern operations platform: NFC badge clock-in kiosk, staff admin portal, attendance in the org-wide reporting format, cross-cycle intern records, and equipment inventory. Ships as a "city-in-a-box" with a one-command setup script and a full tutorial. | Private — city deployments |
+| Repo | What it is |
+|---|---|
+| **cycle-notebook-template** | The starting structure for every new cycle's notebook |
+| **cycle-\*** repos | Each cohort's living notebook, newest = most active |
 
-Repos start private while they hold operational detail; components graduate
-to public as they're generalized for reuse. If you're from another i.c.stars
-city and want to deploy the clock-in system, reach out — the setup takes
-about an hour.
+*(Program tooling — like our NFC clock-in and attendance system — also
+lives in this org as private repos.)*
 
 ## Who we are
 
 - 🌐 [icstars.org](https://www.icstars.org)
 - 📍 Milwaukee, Wisconsin
-- 💼 Interested in hiring our alumni, mentoring, or partnering? Visit
-  [icstars.org](https://www.icstars.org) to connect.
 
 ---
 
